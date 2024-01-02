@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Biocoder &amp; Biodecoder</name>
+	<author>Local Ghost</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>localghost.biocoder</packageId>
+	<description>Add biocoder and biodecoder to the game.
+
+		Biocoder: add user's biocode to the item (cannot use on items which can be bonded, i.e. persona weapons, or have biocode already).
+
+		Biodecoder: remove biocode or bond from the item.
+
+The combat supplier sells biocoders, and the exotic goods trader sells both of them.</description>
+	<modDependencies>
+		<li>
+			<packageId>imranfish.xmlextensions</packageId>
+			<displayName>XML Extensions</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>ludeon.rimworld.royalty</li>
+		<li>imranfish.xmlextensions</li>
+	</loadAfter>
+</ModMetaData>

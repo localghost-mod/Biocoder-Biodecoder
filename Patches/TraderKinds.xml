@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier" or defName="Orbital_CombatSupplier"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Biocoder</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_Exotic" or defName="Orbital_Exotic"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Biocoder</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Biodecoder</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+        </value>
+    </Operation>
+</Patch>

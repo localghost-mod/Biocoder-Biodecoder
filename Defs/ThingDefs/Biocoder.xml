@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase" Name="BiocoderBase" Abstract="True">
+        <thingClass>ThingWithComps</thingClass>
+        <!-- don't know what it means -->
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Mass>0.5</Mass>
+            <DeteriorationRate>2.0</DeteriorationRate>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <stackLimit>10</stackLimit>
+        <techLevel>Ultra</techLevel>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <tradeability>All</tradeability>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_UseEffectPlaySound">
+                <soundOnUsed>MechSerumUsed</soundOnUsed>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BiocoderBase">
+        <defName>Biocoder</defName>
+        <label>Biocoder</label>
+        <description>A single-use ultra-tech device that biocodes given item to the user. The user will be affected by psychic shock after biocoding.</description>
+        <graphicData>
+            <texPath>Things/Item/Special/MechSerumHealer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>500</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>Biocoder_Biocode</useJob>
+                <useLabel>Use {0_label}</useLabel>
+            </li>
+            <li Class="CompProperties_Targetable">
+                <compClass>Biocoder.CompUnbiocoded</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BiocoderBase">
+        <defName>Biodecoder</defName>
+        <label>Biodecoder</label>
+        <description>A single-use ultra-tech device that erases biocode and psychic bond from given item, so that it can be reused by other people. The pre-wielder will be affected by psychic shock.</description>
+        <graphicData>
+            <texPath>Things/Item/Special/MechSerumResurrector</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>500</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>Biocoder_Biodecode</useJob>
+                <useLabel>Use {0_label}</useLabel>
+            </li>
+            <li Class="CompProperties_Targetable">
+                <compClass>Biocoder.CompBiocoded</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <XmlExtensions.SettingsMenuDef>
+        <defName>Biocoder</defName>
+        <modId>Biocoder</modId>
+        <label>Biocoder</label>
+        <tKey>Biocoder</tKey>
+        <settings>
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <tKey>enable_weapon_biocode</tKey>
+                <key>enable_weapon_biocode</key>
+                <label>Patch biocode for all weapons</label>
+                <defaultValue>true</defaultValue>
+            </li>
+
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <tKey>enable_apparel_biocode</tKey>
+                <key>enable_apparel_biocode</key>
+                <label>Patch biocode for all apparels</label>
+                <defaultValue>true</defaultValue>
+            </li>
+            <li Class="XmlExtensions.Setting.Text">
+                <anchor>Middle</anchor>
+                <text>Requires restart game to take effect.</text>
+                <tKey>restart_needed</tKey>
+            </li>
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <tKey>enable_quality_change</tKey>
+                <key>enable_quality_change</key>
+                <label>Biocoder offsets quality by +1, and debiocoder offsets quality by -1</label>
+                <defaultValue>true</defaultValue>
+            </li>
+            <li Class="XmlExtensions.Setting.Text">
+                <anchor>Middle</anchor>
+                <text>Take effect immediately.</text>
+                <tKey>takes_effect_immediately</tKey>
+            </li>
+        </settings>
+    </XmlExtensions.SettingsMenuDef>
+</Defs>

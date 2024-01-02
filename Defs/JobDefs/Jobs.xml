@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <JobDef>
+        <defName>Biocoder_Biocode</defName>
+        <driverClass>Biocoder.JobDriver_Biocode</driverClass>
+        <reportString>Biocoding TargetB.</reportString>
+    </JobDef>
+    <JobDef>
+        <defName>Biocoder_Biodecode</defName>
+        <driverClass>Biocoder.JobDriver_Biodecode</driverClass>
+        <reportString>Biodecoding TargetB.</reportString>
+    </JobDef>
+</Defs>

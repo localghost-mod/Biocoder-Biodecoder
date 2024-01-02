@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <Biocoder.comps.CompUsable.useLabel>使用{0_label}</Biocoder.comps.CompUsable.useLabel>
+
+    <Biocoder.label>生物编码器</Biocoder.label>
+    <Biocoder.description>一个为使用者对指定物品进行生物编码的一次性极致科技设备。编码后使用者会受到心灵冲击。</Biocoder.description>
+    
+    <Biodecoder.comps.CompUsable.useLabel>使用{0_label}</Biodecoder.comps.CompUsable.useLabel>
+
+    <Biodecoder.label>生物解码器</Biodecoder.label>
+    <Biodecoder.description>一个抹去指定物品的生物解码或绑定的一次性极致科技设备。其原持有者会受到心灵冲击。</Biodecoder.description>
+
+</LanguageData>
