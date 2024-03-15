@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+    <Biocoder>Biocoder &amp; Biodecoder</Biocoder>
+    <Biocoder.EnableWeaponBiocode>add biocodablity for all weapons</Biocoder.EnableWeaponBiocode>
+    <Biocoder.EnableApparelBiocode>add biocodability for all apparels</Biocoder.EnableApparelBiocode>
+    <Biocoder.EnableQualityOffset>enable quality offset (+1 after biocoding, -1 after biodecoding)</Biocoder.EnableQualityOffset>
+    <Biocoder.RestartRequired>restart to take effect</Biocoder.RestartRequired>
+    <Biocoder.TakeEffectImmediately>take effect immediately</Biocoder.TakeEffectImmediately>
     <Biocoder.BiocoderUsedGainQuality>{1} has been successfully biocoded to {0}, and its quality has been upgraded to {2}.</Biocoder.BiocoderUsedGainQuality>
     <Biocoder.BiocoderUsed>{1} has been successfully biocoded to {0}.</Biocoder.BiocoderUsed>
     <Biocoder.BiodecoderUsedLoseQuality>Biocode: {0} has been successfully erased from {1}, and its quality has been downgraded to {2}.</Biocoder.BiodecoderUsedLoseQuality>

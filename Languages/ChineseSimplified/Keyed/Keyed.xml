@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <Biocoder>生物编码器</Biocoder>
-    <enable_weapon_biocode>对所有武器进行生物编码</enable_weapon_biocode>
-    <enable_apparel_biocode>对所有服饰进行生物编码</enable_apparel_biocode>
-    <restart_needed>重启以生效</restart_needed>
+    <Biocoder>生物编码器与生物解码器</Biocoder>
+    <Biocoder.EnableWeaponBiocode>对所有武器进行生物编码</Biocoder.EnableWeaponBiocode>
+    <Biocoder.EnableApparelBiocode>对所有服饰进行生物编码</Biocoder.EnableApparelBiocode>
+    <Biocoder.EnableQualityOffset>启用品质偏移（编码时品质+1，解码时品质-1）</Biocoder.EnableQualityOffset>
+    <Biocoder.RestartRequired>重启以生效</Biocoder.RestartRequired>
+    <Biocoder.TakeEffectImmediately>立即生效</Biocoder.TakeEffectImmediately>
     <Biocoder.BiocoderUsedGainQuality>{1}已成功生物编码为：{0}，并提升品质至{2}。</Biocoder.BiocoderUsedGainQuality>
     <Biocoder.BiocoderUsed>{1}已成功生物编码为：{0}。</Biocoder.BiocoderUsed>
     <Biocoder.BiodecoderUsedLoseQuality>{1}的生物编码：{0}已成功解除，其品质降低至{2}。</Biocoder.BiodecoderUsedLoseQuality>
